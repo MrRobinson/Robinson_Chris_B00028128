@@ -1,0 +1,63 @@
+/********************************* Applies to All pages ************************************/
+
+.column_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/********************************* Layout for index.php  ****************************************/
+
+.column_container section.aside {
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: #600000;
+    padding: 2rem;
+
+}
+
+.column_container section.middle {
+    flex-wrap: wrap;
+    width: 33.33333%;
+    background-color: #600000;
+    padding: 2rem;
+
+}
+
+
+.column_container section.right {
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #600000;
+    margin: 0;
+    padding: 2rem;
+}
+
+.column_container section.top {
+    width: 30rem;
+    background-color: #600000;
+    padding: 2rem;
+
+}
+
+/********************************* Layout for forum.php  ****************************************/
+
+.column_container section.forumMiddle {
+    flex-wrap: wrap;
+    width: 33.33333%;
+    background-color: #600000;
+    padding: 2rem;
+
+}
+
+
+
+table, th, td, tr {
+    border: solid #BBBBBB 0.1rem;
+    color: #FFE0A1;
+}
+
+td {
+    width: 7rem;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,36 @@
+nav ul {
+    display: flex; /*Allow content to fill equal space*/
+    background-color: #600000;
+    font-size: large;
+    list-style-type: none; /*Remove decimal dot*/
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block; /*Fill equal space between nav bar */
+    color: #FFE0A1;
+    padding: 0.5rem;
+    text-decoration: none; /*remove underline*/
+    text-align: center;
+    border-bottom: 0.1rem solid #BBBBBB;
+}
+
+nav a:hover {
+    text-decoration: none; /*no underline when hover over*/
+    background-color: #600000;
+    font-family: sans-serif;
+    color: white;
+}
+
+nav a.current_page {
+    background-color: white;
+    color: #600000;
+    font-style: italic;
+    border-bottom: 0.1rem solid #BBBBBB;
+}
+
+nav li {
+    flex: 1; /*Allow content to fill width of page*/
+}

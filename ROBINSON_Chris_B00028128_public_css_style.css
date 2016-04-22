@@ -1,0 +1,62 @@
+/**************************************** Applies to All pages ************************************/
+body {
+    height:100%;
+    background-color: #600000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: sans-serif;
+    color: #FFE0A1;
+}
+
+
+p {
+    font-family: sans-serif;
+    color: white;
+}
+
+.column_container section.forumMiddle p{
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding-bottom: 0.2rem;
+}
+
+.column_container section.forumMiddle h3{
+    font-family: sans-serif;
+    color: #FFE0A1;
+    margin: 0;
+    padding-bottom: 0.2rem;
+}
+
+a {
+    text-decoration: none; 		/*Remove underline for standard links*/
+    color: #FFE0A1;
+}
+
+a:hover {
+    color: white;			/*Link changes to white when hover over*/
+    text-decoration: underline;	/*Underline when hover over*/
+}
+
+a:active {
+    color: #D7DF01;		/*Link changes to yellow when clicked on*/
+}
+
+ol{
+    color:white;
+}
+
+
+ul {
+    font-size: medium;
+    font-family: sans-serif;
+    color: white;
+}
+
+legend{
+    font-family: sans-serif;
+    color: #FFE0A1;
+}
